@@ -1,0 +1,416 @@
+/*----Base section----*/
+
+body,
+html {
+  margin: 0;
+}
+
+/* home page styles */
+
+.home-content {
+  margin: auto;
+  max-width: 960px;
+}
+
+.home-content h1 {
+  font-family: "Noto Serif TC", serif;
+  font-size: 5em;
+}
+.home-content h2 {
+  font-family: "Noto Serif TC", serif;
+  font-size: 2.5em;
+}
+.home-content p {
+  font-family: "Lato", sans-serif;
+  font-size: 1.5em;
+}
+
+.nav-main {
+  width: 100%;
+  background-color: #222;
+  height: 70px;
+  color: #fff;
+}
+
+.nav-main .logo {
+  float: left;
+  height: 40px;
+  padding: 20px 30px;
+  text-decoration: none;
+  font-size: 1.4em;
+  color: #fff;
+}
+
+.nav-main ul {
+  margin: 0;
+  padding: 0;
+  float: left;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.nav-main ul li {
+  float: left;
+}
+
+.nav-item {
+  display: inline-block;
+  padding: 15px 20px;
+  height: 40px;
+  line-height: 40px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-item:hover {
+  background-color: #444;
+}
+
+.nav-content {
+  position: absolute;
+  top: 70px;
+  overflow: hidden;
+  background-color: #222;
+  color: #fff;
+  max-height: 0px;
+}
+
+.nav-content a {
+  color: white;
+  text-decoration: none;
+}
+
+.nav-content a:hover {
+  text-decoration: underline;
+}
+
+.nav-sub {
+  padding: 10px;
+}
+
+.nav-sub ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.nav-sub ul li a {
+  display: inline-block;
+  padding: 15px 50px;
+}
+
+.nav-item:focus {
+  background-color: #444;
+}
+
+.nav-item:focus ~ .nav-content {
+  max-height: 400px;
+  z-index: 10;
+  -webkit-transition: max-height 0.6s ease-in;
+  -moz-transition: max-height 0.6s ease-in;
+  transition: max-height 0.6s ease-in;
+}
+
+.nav-content:active {
+  max-height: 400px;
+}
+
+/*----Dougs section----*/
+
+/*mysterious*/
+/*
+.wrapper {
+  margin: 30 auto;
+  max-width: 800px;
+}*/
+
+.mysterious {
+  background-color: rgb(156, 4, 156);
+}
+.mysterious h1 {
+  color: rgb(230, 62, 56);
+
+  font-family: "Merienda", cursive;
+}
+.mysterious p {
+  color: rgb(4, 163, 110);
+  font-family: "Merienda", cursive;
+}
+.mysterious-image {
+  background-image: url(../images/Mysterio.jfif);
+}
+.mysterious-content {
+  max-width: 960px;
+  margin: auto;
+}
+/*fun*/
+.fun {
+  background-color: blue;
+  height: 100%;
+}
+.fun h1 {
+  color: rgb(255, 0, 179);
+  font-family: "Joti One", cursive;
+  margin: 0px;
+}
+.fun p {
+  color: rgb(0, 255, 200);
+  font-family: "Joti One", cursive;
+}
+/*Youthful*/
+.youthful {
+  background-color: rgb(255, 145, 0);
+}
+.youthful h1 {
+  color: rgb(89, 0, 255);
+  font-family: "Bubblegum Sans", cursive;
+}
+.youthful p {
+  color: red;
+  font-family: "Bubblegum Sans", cursive;
+}
+/*Sophisticated*/
+.sophisticated {
+  background-color: rgb(94, 131, 93);
+}
+.sophisticated h1 {
+  color: #444;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.sophisticated p {
+  color: rgb(247, 244, 244);
+  font-family: "Noto Sans", sans-serif;
+}
+
+/*----Malkeet section----*/
+.prestige-content p {
+  font-family: "Pacifico", sans-serif;
+  font-size: 50px;
+  color: orangered;
+}
+.prestige-content h1 {
+  font-family: "Pacifico", serif;
+  color: palevioletred;
+  font-size: 150px;
+}
+.prestige-content {
+  max-width: 960px;
+  margin: auto;
+}
+.prestige {
+  background-image: url(../images/ross-sneddon-1207836-unsplash.jpg);
+  max-width: 100%;
+  margin: auto;
+}
+.energetic-content p {
+  font-family: "Gloria Hallelujah", sans-serif;
+  font-size: 50px;
+}
+
+.energetic-content h1 {
+  font-family: "Gloria Hallelujah", serif;
+  color: orangered;
+  font-size: 100px;
+}
+
+.energetic-content {
+  max-width: 960px;
+  margin: auto;
+}
+.energetic-image {
+  background-image: url(../images/john-torcasio-1159809-unsplash.jpg);
+  max-width: 700px;
+  margin: auto;
+}
+.energetic-content h1 {
+  font-family: "Gloria Hallelujah", serif;
+  color: orangered;
+  font-size: 100px;
+}
+
+.energetic-content {
+  max-width: 960px;
+  margin: auto;
+}
+.energetic-image {
+  background-image: url(../images/john-torcasio-1159809-unsplash.jpg);
+  max-width: 700px;
+  margin: auto;
+}
+.playful p {
+  font-family: "Indie Flower", sans-serif;
+  font-size: 50px;
+}
+
+.playful h1 {
+  font-family: "Indie Flower", serif;
+  color: #9451c1;
+  font-size: 100px;
+}
+
+.playful-content {
+  max-width: 960px;
+  margin: auto;
+}
+.playful-image {
+  background-image: url(../images/markus-spiske-711225-unsplash.jpg);
+  max-width: 700px;
+  margin: auto;
+}
+
+.corporate p,
+a,
+li {
+  font-family: "lato", sans-serif;
+}
+
+.corporate h1 {
+  font-family: "lora", serif;
+}
+
+.corporate-content {
+  max-width: 960px;
+  margin: auto;
+}
+.corporate-image {
+  background-image: url(../images/samson-creative-91091-unsplash.jpg);
+  max-width: 960px;
+  margin: auto;
+}
+
+/*----Jordans section----*/
+
+.flex-container {
+  display: flex;
+  margin: auto;
+}
+
+/*----formal section*/
+
+.formal {
+  background-image: url(../images/annie-spratt-1134518-unsplash.jpg);
+}
+
+.formal p,
+a,
+li {
+  font-family: "lato", sans-serif;
+}
+
+.formal h1 {
+  font-family: "lora", serif;
+  font-size: 65px;
+}
+
+.formal h2 {
+  font-family: "lora", serif;
+  font-size: 25px;
+}
+
+.formal h3,
+h4,
+h5,
+h6 {
+}
+
+.formal-content-2 {
+  margin: auto;
+  max-width: 1500px;
+  padding: 50px;
+}
+
+.formal-content-1 {
+  max-width: 500px;
+  margin: auto;
+  margin-top: 100px;
+  background-color: bisque;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+/*----Relaxed---*/
+
+.relaxed-content {
+  max-width: 1200px;
+  margin: auto;
+  text-align: center;
+}
+
+.relaxed-content p {
+  font-family: "Gloria Hallelujah", sans-serif;
+  font-size: 1em;
+}
+
+.relaxed-content h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Gloria Hallelujah", sans-serif;
+}
+
+/* ----Trustworthy---- */
+
+.trustworthy-content {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.trustworthy-content h1 {
+  font-family: "Marck Script", serif;
+  font-size: 4em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.trustworthy-content h2 {
+  font-family: "Marck Script", serif;
+  text-align: center;
+}
+
+.trustworthy-content p {
+  font-family: "Source Sans Pro", sans-serif;
+}
+.trustworthy-images {
+  text-align: center;
+  display: inline-block;
+}
+
+/* creative */
+.creative {
+  background: url(../images/debby-hudson-544846-unsplash.jpg);
+  background-size: 100%;
+  background-repeat: none;
+}
+
+.creative-content {
+  height: 100%;
+  width: 100%;
+  max-width: 750px;
+  margin-left: 50%;
+}
+
+.creative-content h1 {
+  margin: 0px;
+  padding-top: 25px;
+  text-align: center;
+  font-family: "Sacramento", serif;
+  font-size: 5em;
+}
+
+.creative-content h2 {
+  font-family: "Sacramento", serif;
+  text-align: center;
+  font-size: 3em;
+}
+
+.creative-content p {
+  font-family: "Handlee", sans-serif;
+  font-size: 2em;
+}
